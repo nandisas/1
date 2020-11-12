@@ -1,0 +1,34 @@
+67.40 97.67
+5.99  37.98
+
+https://i.ibb.co/d2LJR2f/pngwing-com.png
+https://i.ibb.co/fM78wJr/pngwing.png
+
+http://127.0.0.1:8080
+http-server ./src/data/images/
+
+
+nandisass@yandex.com
+hostel14
+
+nandisass@github
+hostel14c
+
+npm install gh-pages --save-dev
+git init
+
+{
+"homepage": "http://nandisass.github.io/react_1",
+}
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
+<ceate a repo withou anything not even readme> 
+git remote add origin https://github.com/nandisass/react_1.git
+git status
+git add .
+git commit -m "deploy my app to github pages"
+npm run deploy
+git push -u origin maste
+
