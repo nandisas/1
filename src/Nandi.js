@@ -111,13 +111,13 @@ const Nandi = () => {
             <div style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>
             <h5>Select Date</h5>
             </div>
-            {/* <div style={{display: 'flex', justifyContent: 'center'}}> */}
-            <div>
+            <div style={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}>
+            {/* <div> */}
             <DatePicker
                 selected={startDate}
                 onChange={date => {setStartDate(date);mapChange(date)}}
                 includeDates={incDates}
-                placeholderText="Select dates!"
+                placeholderText="           Select dates!"
                 // isClearable
                 // className="red-border"
                 // openToDate={new Date("1993/09/28")}
